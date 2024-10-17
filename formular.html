@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BakeHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formular.css">
+</head>
+<body>
+
+    <nav>
+<!-- Klikbart logo der linker til forsiden -->
+    <a href="index.html">
+    <img src="img/logo.png" alt="BakeHub Logo" class="logo">
+    </a>
+
+        
+<!-- Hovedmenu -->
+        <ul>
+        <li><a href="opskrifter.html">Opskrifter</a></li>
+        <li><a href="tipsogtricks.html">Tips & Tricks</a></li>
+        <li><a href="inspiration.html">Inspiration</a></li>
+        <li><a href="bageudstyr.html">Bageudstyr</a></li>
+        <li><a href="fællesskab.html">Fællesskab</a></li>
+        </ul>
+
+<!-- Søgefelt -->
+        <div class="search-container">
+        <input type="text" placeholder="Søg...">
+        <span class="search-icon">&#128269;</span> <!-- Lup ikon -->
+        </div>
+        </nav>
+
+<!--Overskift -->
+        <h1 class="centered-heading">Fællesskab</h1>
+<!-- Brødtekst med klikbare kategorier på en vandret linje -->
+        <p class="submenu">
+        <span><a href="formular.html"><strong>SPØRGSMÅL OG SVAR</strong></a></span>
+        <span><a href="fællesskab.html">Del dit resultat</a></span>
+        <span><a href="fællesskab.html">BagSammen</a></span>
+        </p>
+
+<!-- Brødtekst før formular -->
+       <p class="broedtekst">
+        Vi har svarene! Udfyld formularen nedenfor, hvis du har brug for hjælp, tips eller bare er nysgerrig på vores bageevents, opskrifter eller teknikker. Vores team er klar til at hjælpe dig på vej - uanset om du er nybegynder eller erfaren bager!
+       </p>
+
+        <form id="kontaktForm" method="POST" action="submit.php" enctype="multipart/form-data">
+        <fieldset>
+        <legend>Skriv dit spørgsmål, et tip eller noget helt tredje</legend>
+
+        <label for="navn">Navn:</label>
+        <input type="text" id="navn" name="navn" placeholder="Dit navn" required>
+        <br>
+
+        <label for="email">Email: <span style="color: rgb(246, 141, 5);">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Din email" required>
+        <br>
+
+        <label for="spørgsmål">Spørgsmål: <span style="color: rgb(240, 134, 6);">*</span></label>
+        <textarea id="spørgsmål" name="spørgsmål" placeholder="Skriv dit spørgsmål her..." required></textarea>
+        <br>
+
+        <label for="billede">Indsæt billede:</label>
+        <input type="file" id="billede" name="billede" accept="image/*">
+        <br>
+
+        <label for="nyhedsbrev">Ja tak, jeg vil gerne modtage nyhedsbrev:</label>
+        <input type="checkbox" id="nyhedsbrev" name="nyhedsbrev" value="Ja">
+        <br>
+
+        <button type="submit">Send</button>
+        </fieldset>
+        </form>
+
+    <!-- Brødtekst efter formular -->
+        <p class="broedtekst">
+        Tak fordi du kontakter os. Vi ser frem til at hjælpe dig med dine spørgsmål.
+        </p>
+        
+<!-- Footer -->
+        <footer class="footer">
+        <footer class="footer">
+        <p class="footer-text">&copy; 2024 BakeHub. Alle rettigheder forbeholdes.</p>
+        <ul class="footer-links">
+        <ul class="footer-links">
+        <li>
+        <a href="#">BakeHub.dk</a>
+        <ul class="sub-links">
+        <li><a href="#">Nyhedsbrev</a></li>
+        <li><a href="#">Vilkår</a></li>
+        <li><a href="#">Om Cookies</a></li>
+        </ul>
+        </li>
+        <li>
+        <a href="#">Nyheder</a>
+        <ul class="sub-links">
+        <li><a href="#">Seneste</a></li>
+        <li><a href="#">Arkiv</a></li>
+        <li><a href="#">Kalender</a></li>
+        </ul>
+        </li>
+        <li>
+        <a href="#">Kontakt</a>
+        <ul class="sub-links">
+        <li><a href="#">Mail: bakeHub@hotmail.dk</a></li>
+        <li><a href="#">Tlf: +45 24 78 14 73</a></li>
+
+        </ul>
+        </li>
+        </ul>
+
+        <!-- Logo i nederste højre hjørne -->
+        <img src="img/logoer.jpg" alt="Logo" class="footer-logo">
+
+
+</footer>
+        
+</body>
+    
+</html>

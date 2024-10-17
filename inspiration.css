@@ -1,0 +1,111 @@
+.centered-heading {
+    text-align: center; /* Centrerer teksten */
+    font-size: 40px; 
+    color: #0a0a0a; 
+    margin-top: 10px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.centered-text {
+    text-align: center; /* Centrerer teksten */
+    font-size: 25px; 
+    color: #0a0a0a; 
+    margin-top: -20px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.centered-text2 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 22px; 
+    color: #0a0a0a; 
+    margin-top: -12px; 
+    margin-right: 160px;
+    margin-left: 120px;
+    word-spacing: 110px; /* Øger mellemrum mellem ord */
+}
+
+.centered-text3 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 22px; 
+    color: #0a0a0af8; 
+    margin-top: 15px; 
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+.submenu {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center; /* Centrerer teksten */
+    white-space: nowrap; /* Forhindrer, at teksten brydes til en ny linje */
+}
+
+.submenu span {
+    display: inline-block; /* Sørger for, at hver link opfører sig som inline-block */
+    margin: 0 10px; /* Tilføjer afstand mellem links */
+    margin-left: 40px;
+}
+
+.submenu a {
+    color: #040504;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    text-decoration: underline; /* Understregning ved hover */
+}
+
+/* To-spaltet layout til tekst */
+.two-column-text {
+    column-count: 2; /* Gør teksten to-spaltet */
+    column-gap: 20px; /* Afstand mellem spalterne */
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 70px; /* Afstand mellem teksten og billederne */
+}
+
+
+/* Grid til billeder og tekst - 2x2 layout */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap; /* Tillader billederne at gå til næste række */
+    justify-content: space-between; /* Giver jævn afstand mellem kolonner */
+    gap: 30px; /* Afstand mellem elementerne */
+}
+
+/* Styling for hvert grid-item (billede + tekst) */
+.grid-item {
+    display: flex;
+    align-items: flex-start; /* Justerer billeder og tekst op langs toppen */
+    width: 40%; /* Gør, at to elementer passer i bredden */
+    margin-left: 70px;
+}
+
+/* Styling for billederne */
+.inline-image {
+    width: 210px; /* Fast bredde til billederne */
+    height: auto;
+    margin-right: 20px; /* Afstand mellem billede og tekst */
+    margin-bottom: 90px;
+}
+
+/* Styling for underoverskrifter */
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Afstand mellem underoverskrift og beskrivelse */
+    margin-top: 5px;
+}
+
+/* Styling for teksten ved siden af billeder */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    margin-right: 90px;
+}
+
+
+
+

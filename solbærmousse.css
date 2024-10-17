@@ -1,0 +1,71 @@
+.centered-heading {
+    text-align: center; /* Centrerer teksten */
+    font-size: 40px; 
+    color: #0a0a0a; 
+    margin-top: 10px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.to-spalter {
+    display: grid;
+    grid-template-columns: 1fr ; /* Opretter 2 spalter */
+    grid-gap: -40px; /* Tilføjer afstand mellem elementerne */
+    list-style-type: disc; /* Punktform */
+    padding-left: 100px;
+}
+
+.to-spalter li {
+    margin-bottom: 10px; /* Tilføjer afstand mellem listeelementerne */
+    margin-top: 10px;
+}
+
+
+.centered-text {
+    text-align: center; /* Centrerer teksten */
+    font-size: 25px; 
+    color: #0a0a0a; 
+    margin-top: 40px; 
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+/* Grid til billeder og tekst - 2x2 layout */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap; /* Tillader billederne at gå til næste række */
+    justify-content: space-between; /* Giver jævn afstand mellem kolonner */
+    gap: 30px; /* Afstand mellem elementerne */
+}
+
+/* Styling for hvert grid-item (billede + tekst) */
+.grid-item {
+    display: flex;
+    align-items: flex-start; /* Justerer billeder og tekst op langs toppen */
+    width: 40%; /* Gør, at to elementer passer i bredden */
+    margin-left: 300px;
+}
+
+/* Styling for billederne */
+.inline-image {
+    width: 400px; /* Fast bredde til billederne */
+    height: auto;
+    margin-right: 20px; /* Afstand mellem billede og tekst */
+    margin-bottom: 90px;
+    border-radius: 50px;
+}
+
+/* Styling for underoverskrifter */
+h3 {
+    font-size: 30px;
+    margin-bottom: 10px; /* Afstand mellem underoverskrift og beskrivelse */
+    margin-top: 2px;
+}
+
+/* Styling for teksten ved siden af billeder */
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px;
+    margin-right: -40px;
+}

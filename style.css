@@ -1,0 +1,148 @@
+/*grundlægggende styling*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF4E6;
+}
+
+/*header*/
+nav {
+    background-color: #FAF4E6;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*logo*/
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+/*hovedmenu placering*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+/*afstand mellem hovedmenupunkterne*/
+
+li {
+    margin: 0 20px;
+}
+
+/*hovedmenu tekster*/ 
+a {
+     color: rgb(5, 5, 5);
+    text-decoration: none;
+    padding: 5px 5px;
+    display: block;
+    font-size: 20px;
+}
+
+/*farven af markøren hen over hovedmenupunkt*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*søgefeltet*/
+.search-container {
+    position: relative;
+}
+.search-container input {
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    padding-right: 30px;
+}
+.search-container .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #575757;
+    cursor: pointer;
+}
+/*overskrift*/
+.centered-heading {
+    text-align: center; /* Centrerer teksten horisontalt */
+    margin-top: 5px; /* Afstand fra hovedmenuen */
+    font-size: 40px; /* Størrelsen på overskriften */
+    color: #333; /* Tekstfarve */
+    font-family: 'Arial', sans-serif; /* Font-typen */
+
+}
+
+/* Styling til footer */
+.footer {
+    display: flex; /* Brug flexbox til layout */
+    justify-content: space-between; /* Fordel plads mellem elementerne */
+    align-items: center; /* Centrer elementer lodret */
+    background-color: #A09584; /* Baggrundsfarve */
+    color: white; /* Farve på teksten */
+    padding: 10px 20px; /* Indvendig margin */
+    position: relative; /* For at gøre footeren relativ til skærmen */
+}
+
+/* Styling til footer-tekst */
+.footer-text {
+    margin: 0; /* Fjerner margin */
+}
+
+/* Styling til footer-links */
+.footer-links {
+    list-style-type: none; /* Fjerner punkttegn */
+    margin-left: 70px;
+}
+
+/* Styling til hvert listeelement */
+.footer-links li {
+    margin: 0 10px; /* Afstand mellem hvert listeelement */
+}
+
+/* Styling til beskrivelser */
+.sub-links {
+    margin: 5px 0 0; /* Margin for at give afstand fra hovedlinket */
+    margin-left: -6px;
+    display: block; /* Gør underlinks synlige som standard */
+}
+
+/* Styling til links */
+.footer-links a {
+    color: white; /* Hvid farve på links */
+    text-decoration: none; /* Fjerner understregning fra links */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Understreger links ved hover */
+}
+
+/* Styling til sub-links */
+.sub-links a {
+    color: #ccc; /* Lys grå farve for underlinks */
+    font-size: 14px; /* Mindre skriftstørrelse for underlinks */
+    padding-right: 10px;
+}
+.footer-logo {
+    position: absolute; /* Gør det muligt at placere logoet præcist */
+    right: -300px; /* Placerer logoet 20px fra højre kant */
+    bottom: 2px; /* Placerer logoet 20px fra bunden */
+    width: 200px; /* Fastsætter en passende bredde på logoet */
+    height: auto; /* Bevarer billedets proportioner */
+}
+
+.footer-text {
+    margin: 0; /* Fjerner margen fra teksten */
+    text-align: left; /* Justerer teksten til venstre */
+}
+
+
+

@@ -1,0 +1,120 @@
+.centered-heading {
+    text-align: center; /* Centrerer teksten */
+    font-size: 40px; 
+    color: #0a0a0a; 
+    margin-top: 10px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.centered-text {
+    text-align: center; /* Centrerer teksten */
+    font-size: 25px; 
+    color: #0a0a0a; 
+    margin-top: -20px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.submenu {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center; /* Centrerer teksten */
+    white-space: nowrap; /* Forhindrer, at teksten brydes til en ny linje */
+    margin-left: -70px;
+}
+
+.submenu span {
+    display: inline-block; /* Sørger for, at hver link opfører sig som inline-block */
+    margin: 0 10px; /* Tilføjer afstand mellem links */
+    margin-left: 40px;
+}
+
+.submenu a {
+    color: #040504;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    text-decoration: underline; /* Understregning ved hover */
+}
+
+.centered-text2 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 18px; 
+    color: #0a0a0a; 
+    margin-top: -12px; 
+    margin-right: 120px;
+    margin-left: 120px;
+    word-spacing: 0px; /* Øger mellemrum mellem ord */
+}
+
+.centered-text3 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 18px; 
+    color: #0a0a0aa8; 
+    margin-top: 15px; 
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+.broedtekst {
+    max-width: 800px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+    margin-left: 300px;
+}
+
+form {
+    background-color: #F1E7D8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+    text-align: left;
+    margin-left: 450px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #e3b35e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049
+}

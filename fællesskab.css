@@ -1,0 +1,152 @@
+
+.centered-heading {
+    text-align: center; /* Centrerer teksten */
+    font-size: 40px; 
+    color: #0a0a0a; 
+    margin-top: 10px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.submenu {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center; /* Centrerer teksten */
+    white-space: nowrap; /* Forhindrer, at teksten brydes til en ny linje */
+    margin-left: -30px;
+}
+
+.submenu span {
+    display: inline-block; /* Sørger for, at hver link opfører sig som inline-block */
+    margin: 0 10px; /* Tilføjer afstand mellem links */
+    margin-left: 20px;
+}
+
+.submenu a {
+    color: #040504;
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+}
+
+.to-spalter {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Opretter 2 spalter */
+    grid-gap: 10px; /* Tilføjer afstand mellem elementerne */
+    list-style-type: disc; /* Punktform */
+    padding-left: 100px;
+}
+
+.to-spalter li {
+    margin-bottom: 10px; /* Tilføjer afstand mellem listeelementerne */
+    margin-top: 20px;
+}
+
+.submenu a:hover {
+    text-decoration: underline; /* Understregning ved hover */
+}
+.centered-text {
+    text-align: center; /* Centrerer teksten */
+    font-size: 25px; 
+    color: #0a0a0a; 
+    margin-top: -20px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.centered-text2 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 18px; 
+    color: #0a0a0a; 
+    margin-top: -12px; 
+    margin-right: 120px;
+    margin-left: 120px;
+    word-spacing: 0px; /* Øger mellemrum mellem ord */
+}
+
+.centered-text3 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 18px; 
+    color: #0a0a0aa8; 
+    margin-top: 15px; 
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+/* To-spaltet layout til tekst */
+.two-column-text {
+    column-count: 2; /* Gør teksten to-spaltet */
+    column-gap: 20px; /* Afstand mellem spalterne */
+    margin-left: 20px;
+    margin-bottom: 70px; /* Afstand mellem teksten og billederne */
+}
+
+
+/* For at centrere billederne*/
+.image-container {
+    display: flex; /* Aktiverer flexbox */
+    justify-content: center; /* Centrerer indholdet horisontalt */
+}
+
+/* Styling for billederne */
+.inline-image {
+    width: 200px; /* Giver billederne en fast bredde */
+    height: auto; /* Bevarer billedproportioner */
+    margin: 0 70px; /* Tilføjer lidt margen omkring billederne */
+    vertical-align: top; /* Sørger for, at billederne flugter øverst */
+    border-radius: 38px; 
+    margin-top: 20px;
+}
+
+.centered-text4 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 18px; 
+    color: #0a0a0ac9; 
+    margin-top: 20px; 
+    margin-right: 350px;
+    margin-left: 330px;
+    margin-bottom: 20px;
+    word-spacing: 62px; /* Øger mellemrum mellem ord */
+}
+
+.large-image {
+    width: 400px; /* Giver billederne en fast bredde */
+    height: auto; /* Bevarer billedproportioner */
+    margin: 0 10px; /* Tilføjer lidt margen omkring billederne */
+    vertical-align: top; /* Sørger for, at billederne flugter øverst */
+    border-radius: 20px; 
+    margin-top: 10px;
+    margin-left: 525px;
+}
+
+.centered-text5 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 18px; 
+    color: #0a0a0ac9; 
+    margin-top: 60px; 
+    margin-right: 350px;
+    margin-left: 330px;
+    margin-bottom: 20px;
+}
+
+.centered-text6 {
+    text-align: center; /* Centrerer teksten */
+    font-size: 18px; 
+    color: #0a0a0ac9; 
+    margin-top: 60px; 
+    margin-right: 350px;
+    margin-left: 330px;
+    margin-bottom: 20px;
+}
+/* Styling for pilen */
+.arrow-container {
+    display: block; /* Gør at <span> opfører sig som en blok */
+    text-align: center; /* Centrerer pilen horisontalt */
+    margin-top: 20px; /* Afstand over pilen */
+    margin-left: -20px;
+}
+
+.arrow {
+    width: 70px; /* Juster bredden af pilen efter behov */
+    height: auto; /* Bevarer billedproportioner */
+}
